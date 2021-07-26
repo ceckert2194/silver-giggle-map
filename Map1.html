@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0a077bc884ef48e39fff04745902802d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0a077bc884ef48e39fff04745902802d" ></div>
+        
+</body>
+<script>    
+    
+            var map_0a077bc884ef48e39fff04745902802d = L.map(
+                "map_0a077bc884ef48e39fff04745902802d",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_198dc3ff4dd3413d8d9b62c3aaa11360 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+            var circle_792bdd2266ee40748fe4b9c28b869dd1 = L.circle(
+                [64.9255, -147.2895],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_9ffbab6a2f244ae7a4b605af9fe107f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9064f84f60042b5955df3629154181d = $(`<div id="html_e9064f84f60042b5955df3629154181d" style="width: 100.0%; height: 100.0%;">M 1.6 - 13 km WNW of Two Rivers, Alaska</div>`)[0];
+            popup_9ffbab6a2f244ae7a4b605af9fe107f9.setContent(html_e9064f84f60042b5955df3629154181d);
+        
+
+        circle_792bdd2266ee40748fe4b9c28b869dd1.bindPopup(popup_9ffbab6a2f244ae7a4b605af9fe107f9)
+        ;
+
+        
+    
+    
+            var circle_3cd671e1f60e41409ccbdbae223c8ae8 = L.circle(
+                [19.4218330383301, -155.320327758789],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 187000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_68029836a2e44ac28f4a4a82ac473037 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b08a07a4be0c43e1a6bf2c738d3f60ab = $(`<div id="html_b08a07a4be0c43e1a6bf2c738d3f60ab" style="width: 100.0%; height: 100.0%;">M 1.9 - 9 km WSW of Volcano, Hawaii</div>`)[0];
+            popup_68029836a2e44ac28f4a4a82ac473037.setContent(html_b08a07a4be0c43e1a6bf2c738d3f60ab);
+        
+
+        circle_3cd671e1f60e41409ccbdbae223c8ae8.bindPopup(popup_68029836a2e44ac28f4a4a82ac473037)
+        ;
+
+        
+    
+    
+            var circle_3ba11cd876e04a2b94397208b2913b02 = L.circle(
+                [60.6033, -149.6137],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 260000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_a6202e1e82374779b88ac6df0fe31834 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8586a061fae043328feb6a30ed5a889d = $(`<div id="html_8586a061fae043328feb6a30ed5a889d" style="width: 100.0%; height: 100.0%;">M 2.6 - 17 km NE of Cooper Landing, Alaska</div>`)[0];
+            popup_a6202e1e82374779b88ac6df0fe31834.setContent(html_8586a061fae043328feb6a30ed5a889d);
+        
+
+        circle_3ba11cd876e04a2b94397208b2913b02.bindPopup(popup_a6202e1e82374779b88ac6df0fe31834)
+        ;
+
+        
+    
+    
+            var circle_28318d6f32bf4f50b989df6e60aef775 = L.circle(
+                [19.382999420166, -155.240661621094],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 183000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_c53a5f2c67e2409db429558c42ee8255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e91f8c2394746e3bcbef9fccb1bf32d = $(`<div id="html_8e91f8c2394746e3bcbef9fccb1bf32d" style="width: 100.0%; height: 100.0%;">M 1.8 - 6 km S of Volcano, Hawaii</div>`)[0];
+            popup_c53a5f2c67e2409db429558c42ee8255.setContent(html_8e91f8c2394746e3bcbef9fccb1bf32d);
+        
+
+        circle_28318d6f32bf4f50b989df6e60aef775.bindPopup(popup_c53a5f2c67e2409db429558c42ee8255)
+        ;
+
+        
+    
+    
+            var circle_2de3745373aa4fdfb3e966874e1c31dc = L.circle(
+                [19.1968326568604, -155.453338623047],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 256999.99999999997, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_df3005873e334ae9a064ade268584f3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbe9dca7753b4308a2933bee4fba217a = $(`<div id="html_fbe9dca7753b4308a2933bee4fba217a" style="width: 100.0%; height: 100.0%;">M 2.6 - 2 km ESE of Pāhala, Hawaii</div>`)[0];
+            popup_df3005873e334ae9a064ade268584f3a.setContent(html_fbe9dca7753b4308a2933bee4fba217a);
+        
+
+        circle_2de3745373aa4fdfb3e966874e1c31dc.bindPopup(popup_df3005873e334ae9a064ade268584f3a)
+        ;
+
+        
+    
+    
+            var circle_c6a20ff8ccb0477b89e1f5657ee3c63d = L.circle(
+                [62.8716, -149.8534],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 90000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_e008d79ed79e4cfba5a73d370cbdf5c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edf160cb65f4466d95ec5ff28548a4d2 = $(`<div id="html_edf160cb65f4466d95ec5ff28548a4d2" style="width: 100.0%; height: 100.0%;">M 0.9 - 48 km NNE of Chase, Alaska</div>`)[0];
+            popup_e008d79ed79e4cfba5a73d370cbdf5c3.setContent(html_edf160cb65f4466d95ec5ff28548a4d2);
+        
+
+        circle_c6a20ff8ccb0477b89e1f5657ee3c63d.bindPopup(popup_e008d79ed79e4cfba5a73d370cbdf5c3)
+        ;
+
+        
+    
+    
+            var circle_7f71ebddf3224301bb1c2d2e33e29780 = L.circle(
+                [38.524, -119.4972],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_08c7eda470f24bd19c5c3ac911646de3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a4b48383f64d9fac0fe0fc6658f811 = $(`<div id="html_55a4b48383f64d9fac0fe0fc6658f811" style="width: 100.0%; height: 100.0%;">M 1.2 - 2 km WNW of Walker, California</div>`)[0];
+            popup_08c7eda470f24bd19c5c3ac911646de3.setContent(html_55a4b48383f64d9fac0fe0fc6658f811);
+        
+
+        circle_7f71ebddf3224301bb1c2d2e33e29780.bindPopup(popup_08c7eda470f24bd19c5c3ac911646de3)
+        ;
+
+        
+    
+    
+            var circle_f2a3f7f90d5840c0b017f6d13307b49c = L.circle(
+                [65.0021, -145.8643],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 250000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_27cc0902374c47b19d0effc9eafa57fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c21d73fe47ed4fd086c369f01834e2e6 = $(`<div id="html_c21d73fe47ed4fd086c369f01834e2e6" style="width: 100.0%; height: 100.0%;">M 2.5 - 49 km ENE of Pleasant Valley, Alaska</div>`)[0];
+            popup_27cc0902374c47b19d0effc9eafa57fc.setContent(html_c21d73fe47ed4fd086c369f01834e2e6);
+        
+
+        circle_f2a3f7f90d5840c0b017f6d13307b49c.bindPopup(popup_27cc0902374c47b19d0effc9eafa57fc)
+        ;
+
+        
+    
+    
+            var circle_5d2116ee2b4347aeb6260a8ce4095fd2 = L.circle(
+                [38.8283348, -122.75],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 102000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_4fa4c01373cd4d07b0d6230598ef0371 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b0525e3984646d8ba3c00f63e423339 = $(`<div id="html_1b0525e3984646d8ba3c00f63e423339" style="width: 100.0%; height: 100.0%;">M 1.0 - 2km WNW of Cobb, CA</div>`)[0];
+            popup_4fa4c01373cd4d07b0d6230598ef0371.setContent(html_1b0525e3984646d8ba3c00f63e423339);
+        
+
+        circle_5d2116ee2b4347aeb6260a8ce4095fd2.bindPopup(popup_4fa4c01373cd4d07b0d6230598ef0371)
+        ;
+
+        
+    
+    
+            var circle_2924ee5882a54230b688cfff0108bc1b = L.circle(
+                [60.4853, -152.7479],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+        var popup_c6d69fb6263248619605aba53af57ecd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2ae8ee609784703ba6cdcdbc69abfe9 = $(`<div id="html_d2ae8ee609784703ba6cdcdbc69abfe9" style="width: 100.0%; height: 100.0%;">M 1.6 - 76 km NW of Ninilchik, Alaska</div>`)[0];
+            popup_c6d69fb6263248619605aba53af57ecd.setContent(html_d2ae8ee609784703ba6cdcdbc69abfe9);
+        
+
+        circle_2924ee5882a54230b688cfff0108bc1b.bindPopup(popup_c6d69fb6263248619605aba53af57ecd)
+        ;
+
+        
+    
+    
+            var feature_group_47c8d54f2b544805816774e2f3d83c97 = L.featureGroup(
+                {}
+            ).addTo(map_0a077bc884ef48e39fff04745902802d);
+        
+    
+            var marker_18f31d22cbb3416ebe99520756b4cb61 = L.marker(
+                [64.9255, -147.2895],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_c89cf25e046840809131681988ed2b5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_18f31d22cbb3416ebe99520756b4cb61.setIcon(icon_c89cf25e046840809131681988ed2b5a);
+        
+    
+        var popup_e8954e87dea24e94b69e35b9b014888a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc66ea3a285346e9bf2591ac3662df06 = $(`<div id="html_fc66ea3a285346e9bf2591ac3662df06" style="width: 100.0%; height: 100.0%;">M 1.6 - 13 km WNW of Two Rivers, Alaska</div>`)[0];
+            popup_e8954e87dea24e94b69e35b9b014888a.setContent(html_fc66ea3a285346e9bf2591ac3662df06);
+        
+
+        marker_18f31d22cbb3416ebe99520756b4cb61.bindPopup(popup_e8954e87dea24e94b69e35b9b014888a)
+        ;
+
+        
+    
+    
+            var marker_426813e016694cc79757f10ed4542b03 = L.marker(
+                [19.4218330383301, -155.320327758789],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_26ddcb1047024159be4286b4e04be6ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_426813e016694cc79757f10ed4542b03.setIcon(icon_26ddcb1047024159be4286b4e04be6ca);
+        
+    
+        var popup_6728cfd038f04cea88b0f32dad72f594 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf2d8ccde4643a99ef41509b0ad8b8f = $(`<div id="html_2bf2d8ccde4643a99ef41509b0ad8b8f" style="width: 100.0%; height: 100.0%;">M 1.9 - 9 km WSW of Volcano, Hawaii</div>`)[0];
+            popup_6728cfd038f04cea88b0f32dad72f594.setContent(html_2bf2d8ccde4643a99ef41509b0ad8b8f);
+        
+
+        marker_426813e016694cc79757f10ed4542b03.bindPopup(popup_6728cfd038f04cea88b0f32dad72f594)
+        ;
+
+        
+    
+    
+            var marker_ab76ed8642ad451bb29818dc89be349e = L.marker(
+                [60.6033, -149.6137],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_8aadc35c2198474c9f6b0f41168e3204 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab76ed8642ad451bb29818dc89be349e.setIcon(icon_8aadc35c2198474c9f6b0f41168e3204);
+        
+    
+        var popup_f7a9acd2e5c242caaf1baf34c2d10824 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efa26f83045940bab653f2512980be1d = $(`<div id="html_efa26f83045940bab653f2512980be1d" style="width: 100.0%; height: 100.0%;">M 2.6 - 17 km NE of Cooper Landing, Alaska</div>`)[0];
+            popup_f7a9acd2e5c242caaf1baf34c2d10824.setContent(html_efa26f83045940bab653f2512980be1d);
+        
+
+        marker_ab76ed8642ad451bb29818dc89be349e.bindPopup(popup_f7a9acd2e5c242caaf1baf34c2d10824)
+        ;
+
+        
+    
+    
+            var marker_5cc955f914e443caa8f5bf8d8e6af98f = L.marker(
+                [19.382999420166, -155.240661621094],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_d1fa35d7a3764b81bc52577db7caa877 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cc955f914e443caa8f5bf8d8e6af98f.setIcon(icon_d1fa35d7a3764b81bc52577db7caa877);
+        
+    
+        var popup_ed814f4b6d364b79ac07768689a8033a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b985a4dd2646cbab0411d2173a84cf = $(`<div id="html_15b985a4dd2646cbab0411d2173a84cf" style="width: 100.0%; height: 100.0%;">M 1.8 - 6 km S of Volcano, Hawaii</div>`)[0];
+            popup_ed814f4b6d364b79ac07768689a8033a.setContent(html_15b985a4dd2646cbab0411d2173a84cf);
+        
+
+        marker_5cc955f914e443caa8f5bf8d8e6af98f.bindPopup(popup_ed814f4b6d364b79ac07768689a8033a)
+        ;
+
+        
+    
+    
+            var marker_b8fc8789730f42c98afc08f74cbddaf0 = L.marker(
+                [19.1968326568604, -155.453338623047],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_a14710398b08419cb44202694f6776cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8fc8789730f42c98afc08f74cbddaf0.setIcon(icon_a14710398b08419cb44202694f6776cd);
+        
+    
+        var popup_191395e3525841259476da9feae2d571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7fb9c53947e4a0a9b29fab258402596 = $(`<div id="html_c7fb9c53947e4a0a9b29fab258402596" style="width: 100.0%; height: 100.0%;">M 2.6 - 2 km ESE of Pāhala, Hawaii</div>`)[0];
+            popup_191395e3525841259476da9feae2d571.setContent(html_c7fb9c53947e4a0a9b29fab258402596);
+        
+
+        marker_b8fc8789730f42c98afc08f74cbddaf0.bindPopup(popup_191395e3525841259476da9feae2d571)
+        ;
+
+        
+    
+    
+            var marker_04f17caa208c40de95c817e5e9b95aa7 = L.marker(
+                [62.8716, -149.8534],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_95fd9b1089864090b05d9dcc2ea26f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04f17caa208c40de95c817e5e9b95aa7.setIcon(icon_95fd9b1089864090b05d9dcc2ea26f18);
+        
+    
+        var popup_bd913a2455b04ed8827a91be82c73b35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8518b51428ff41fbbf75c64b92c349eb = $(`<div id="html_8518b51428ff41fbbf75c64b92c349eb" style="width: 100.0%; height: 100.0%;">M 0.9 - 48 km NNE of Chase, Alaska</div>`)[0];
+            popup_bd913a2455b04ed8827a91be82c73b35.setContent(html_8518b51428ff41fbbf75c64b92c349eb);
+        
+
+        marker_04f17caa208c40de95c817e5e9b95aa7.bindPopup(popup_bd913a2455b04ed8827a91be82c73b35)
+        ;
+
+        
+    
+    
+            var marker_e91aafc9f74c427a8070a59c79b989f2 = L.marker(
+                [38.524, -119.4972],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_cde3dfb025284d109c1a5d21ecdc2b57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e91aafc9f74c427a8070a59c79b989f2.setIcon(icon_cde3dfb025284d109c1a5d21ecdc2b57);
+        
+    
+        var popup_9ccf89cf5f1a46b189add8e0388196d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_343c3c7ea9ad4d78996be2aae4f57e49 = $(`<div id="html_343c3c7ea9ad4d78996be2aae4f57e49" style="width: 100.0%; height: 100.0%;">M 1.2 - 2 km WNW of Walker, California</div>`)[0];
+            popup_9ccf89cf5f1a46b189add8e0388196d5.setContent(html_343c3c7ea9ad4d78996be2aae4f57e49);
+        
+
+        marker_e91aafc9f74c427a8070a59c79b989f2.bindPopup(popup_9ccf89cf5f1a46b189add8e0388196d5)
+        ;
+
+        
+    
+    
+            var marker_cc1d642b1a7943f3bd899686de3a8e02 = L.marker(
+                [65.0021, -145.8643],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_55e02f1838bd40b5a90eb714555fe1ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc1d642b1a7943f3bd899686de3a8e02.setIcon(icon_55e02f1838bd40b5a90eb714555fe1ad);
+        
+    
+        var popup_6273b1dde4a14462ace9210be823ce80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f3ef5b2ac58410a8b3c92a9707b3471 = $(`<div id="html_2f3ef5b2ac58410a8b3c92a9707b3471" style="width: 100.0%; height: 100.0%;">M 2.5 - 49 km ENE of Pleasant Valley, Alaska</div>`)[0];
+            popup_6273b1dde4a14462ace9210be823ce80.setContent(html_2f3ef5b2ac58410a8b3c92a9707b3471);
+        
+
+        marker_cc1d642b1a7943f3bd899686de3a8e02.bindPopup(popup_6273b1dde4a14462ace9210be823ce80)
+        ;
+
+        
+    
+    
+            var marker_2e4f6b55f7dc405c8d7f94cd40db0ed6 = L.marker(
+                [38.8283348, -122.75],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_4c2ebe8d023b40afbb96f2bb12806329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e4f6b55f7dc405c8d7f94cd40db0ed6.setIcon(icon_4c2ebe8d023b40afbb96f2bb12806329);
+        
+    
+        var popup_e9202892494d43baab9bf00e96c06329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12c0037a766f49da90470b8d88761621 = $(`<div id="html_12c0037a766f49da90470b8d88761621" style="width: 100.0%; height: 100.0%;">M 1.0 - 2km WNW of Cobb, CA</div>`)[0];
+            popup_e9202892494d43baab9bf00e96c06329.setContent(html_12c0037a766f49da90470b8d88761621);
+        
+
+        marker_2e4f6b55f7dc405c8d7f94cd40db0ed6.bindPopup(popup_e9202892494d43baab9bf00e96c06329)
+        ;
+
+        
+    
+    
+            var marker_8ebe182eaeff4d7cab18e88c4f941a6a = L.marker(
+                [60.4853, -152.7479],
+                {}
+            ).addTo(feature_group_47c8d54f2b544805816774e2f3d83c97);
+        
+    
+            var icon_78fb1688b4fa43fdace55a7eaacae8a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ebe182eaeff4d7cab18e88c4f941a6a.setIcon(icon_78fb1688b4fa43fdace55a7eaacae8a2);
+        
+    
+        var popup_a081e7c5209949bbb8d84d19bc67cd69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49351a960a05472d991d8680405916ca = $(`<div id="html_49351a960a05472d991d8680405916ca" style="width: 100.0%; height: 100.0%;">M 1.6 - 76 km NW of Ninilchik, Alaska</div>`)[0];
+            popup_a081e7c5209949bbb8d84d19bc67cd69.setContent(html_49351a960a05472d991d8680405916ca);
+        
+
+        marker_8ebe182eaeff4d7cab18e88c4f941a6a.bindPopup(popup_a081e7c5209949bbb8d84d19bc67cd69)
+        ;
+
+        
+    
+</script>

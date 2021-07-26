@@ -1,0 +1,421 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1627342961000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+        "title": "USGS All Earthquakes, Past Hour",
+        "status": 200,
+        "api": "1.10.3",
+        "count": 10
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "13 km WNW of Two Rivers, Alaska",
+                "time": 1627341552751,
+                "updated": 1627341724690,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219iq1wq3",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219iq1wq3.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "0219iq1wq3",
+                "ids": ",ak0219iq1wq3,",
+                "sources": ",ak,",
+                "types": ",origin,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.81,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 13 km WNW of Two Rivers, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -147.2895,
+                    64.9255,
+                    0
+                ]
+            },
+            "id": "ak0219iq1wq3"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.87,
+                "place": "9 km WSW of Volcano, Hawaii",
+                "time": 1627341066180,
+                "updated": 1627341396410,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72606022",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72606022.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 54,
+                "net": "hv",
+                "code": "72606022",
+                "ids": ",hv72606022,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 22,
+                "dmin": null,
+                "rms": 0.0900000036,
+                "gap": 86,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.9 - 9 km WSW of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.320327758789,
+                    19.4218330383301,
+                    3.96000003814697
+                ]
+            },
+            "id": "hv72606022"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "17 km NE of Cooper Landing, Alaska",
+                "time": 1627340683119,
+                "updated": 1627342063040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219ipyrat",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219ipyrat.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "ak",
+                "code": "0219ipyrat",
+                "ids": ",us6000ezc0,ak0219ipyrat,",
+                "sources": ",us,ak,",
+                "types": ",origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.86,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 17 km NE of Cooper Landing, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.6137,
+                    60.6033,
+                    35
+                ]
+            },
+            "id": "ak0219ipyrat"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.83,
+                "place": "6 km S of Volcano, Hawaii",
+                "time": 1627340604430,
+                "updated": 1627340934840,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72606002",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72606002.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 52,
+                "net": "hv",
+                "code": "72606002",
+                "ids": ",hv72606002,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 17,
+                "dmin": null,
+                "rms": 0.150000006,
+                "gap": 86,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 6 km S of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.240661621094,
+                    19.382999420166,
+                    2.04999995231628
+                ]
+            },
+            "id": "hv72606002"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.57,
+                "place": "2 km ESE of P\u0101hala, Hawaii",
+                "time": 1627340564580,
+                "updated": 1627340895070,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72605997",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv72605997.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 102,
+                "net": "hv",
+                "code": "72605997",
+                "ids": ",hv72605997,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 16,
+                "dmin": null,
+                "rms": 0.189999998,
+                "gap": 203,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km ESE of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.453338623047,
+                    19.1968326568604,
+                    31.8299999237061
+                ]
+            },
+            "id": "hv72605997"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.9,
+                "place": "48 km NNE of Chase, Alaska",
+                "time": 1627340010118,
+                "updated": 1627340201517,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219ipnssz",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219ipnssz.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 12,
+                "net": "ak",
+                "code": "0219ipnssz",
+                "ids": ",ak0219ipnssz,",
+                "sources": ",ak,",
+                "types": ",origin,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.76,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.9 - 48 km NNE of Chase, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.8534,
+                    62.8716,
+                    69.4
+                ]
+            },
+            "id": "ak0219ipnssz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.2,
+                "place": "2 km WNW of Walker, California",
+                "time": 1627339718545,
+                "updated": 1627339943196,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00816438",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00816438.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 22,
+                "net": "nn",
+                "code": "00816438",
+                "ids": ",nn00816438,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.017,
+                "rms": 0.1117,
+                "gap": 93.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 2 km WNW of Walker, California"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.4972,
+                    38.524,
+                    7.2
+                ]
+            },
+            "id": "nn00816438"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "49 km ENE of Pleasant Valley, Alaska",
+                "time": 1627339435408,
+                "updated": 1627339680476,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219iplpli",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219iplpli.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "ak",
+                "code": "0219iplpli",
+                "ids": ",ak0219iplpli,",
+                "sources": ",ak,",
+                "types": ",origin,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.59,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 49 km ENE of Pleasant Valley, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -145.8643,
+                    65.0021,
+                    17.8
+                ]
+            },
+            "id": "ak0219iplpli"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.02,
+                "place": "2km WNW of Cobb, CA",
+                "time": 1627339384780,
+                "updated": 1627339481839,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73600061",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73600061.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 16,
+                "net": "nc",
+                "code": "73600061",
+                "ids": ",nc73600061,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 13,
+                "dmin": 0.0157,
+                "rms": 0.03,
+                "gap": 159,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.0 - 2km WNW of Cobb, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.75,
+                    38.8283348,
+                    0.81
+                ]
+            },
+            "id": "nc73600061"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "76 km NW of Ninilchik, Alaska",
+                "time": 1627339383539,
+                "updated": 1627339680347,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219iplllf",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0219iplllf.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "0219iplllf",
+                "ids": ",ak0219iplllf,",
+                "sources": ",ak,",
+                "types": ",origin,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.6,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 76 km NW of Ninilchik, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.7479,
+                    60.4853,
+                    128.6
+                ]
+            },
+            "id": "ak0219iplllf"
+        }
+    ],
+    "bbox": [
+        -155.45333862305,
+        19.19683265686,
+        0,
+        -119.4972,
+        65.0021,
+        128.6
+    ]
+}
